@@ -10,14 +10,8 @@
 % The collection contains the following subdirectories
 %
 % ADMM_for_SDPA...reads linear SDP problem in SDPA format and solves it
-%    either by
-%    admm_sdp.m ... solves standard linear SDP problem
-%    or by
-%    admm_dnn.m ... solves a conic problem on SDP cone intersectad with the
-%    cone of double nonnegative matrices
-%    This directory includes data for several problems from SDPLIB
 %
-% ADMM_for_STANDARD_QP...solves SDP or SDP \cap DNN relaxation of the 
+% ADMM_for_STANDARD_QP...solves SDP or DNN relaxation of the 
 %    standard quadratic programming problem with random data
 %
 % ADMM_for_TTO...solves the SDP formulation of the basic truss topology
@@ -26,7 +20,7 @@
 % All problems can be solved either by 
 %    admm_sdp.m ... solves standard linear SDP problem
 %    or by
-%    admm_dnn.m ... solves a conic problem on SDP cone intersectad with the
+%    admm_dnn.m ... solves a conic problem on the
 %    cone of double nonnegative matrices (DNN)
 %
 % Copyright (c) 2019 Michal Kocvara, m.kocvara@bham.ac.uk
